@@ -35,7 +35,7 @@ const getCurrentHeroObject = () =>{
     hero_title.innerHTML=currentObj.title
     hero_text.innerHTML=currentObj.text
     hero_img_mobile.src=`${currentObj.mobile_imgUrl}`
-    hero_img_desktop.src=`${currentObj.desktop_imgUrl}`
+    hero_img_desktop.srcset=`${currentObj.desktop_imgUrl}`
 }
 
 const prevImage = () => {
