@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=m, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <main>
+            <nav class="nav">
+                <ul>
+                <li class="open menu-toggle"><img src="./img/open_menu.png" alt="open menu"></li>
+                <li class="close menu-toggle"><img src="./img/close_menu.png" alt="open menu"></li>
+
+                <li class="logo"><a href=""><img src='./img/logo.png' alt='logo'/></a></li>
+                <li class="list-item"><a href="">home</a></li>
+                <li class="list-item"><a href="">shop</a></li>
+                <li class="list-item"><a href="">about</a></li>
+                <li class="list-item"><a href="">contact</a></li>
+            </ul>
+        </nav>
+        <div class="overlay"></div>
+            
+                <picture class="hero-img">
+                    <source id="hero-img-desktop" media="(min-width: 800px)" srcset='./img/hero_1_desktop.png' alt='hero image' />
+                    <img id="hero-img-mobile" class='img-class' src="./img/hero_1_mobile.png" alt="hero image" />
+                </picture>
+                <div class="text-container hero-text-container">
+                    <h1 id="hero-title">Discover innovative ways to decorate</h1>
+                    <p id="hero-text">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+                    <a class="shop-link" href="">Shop now <img src='./img/long_arrow.png' alt='arrow right' /></a>
+                </div>
+                <div class="btn-container">
+                    <button id='prev-btn' class="btn"><img src='./img/arrow_left.png' alt='prevoius button'></button>
+                    <button id='next-btn' class="btn"><img src='./img/arrow_right.png' alt='next button'></button>
+
+                </div>
+                <img class='img-container img-class' src="./img/small_black_chair.png" alt="">
+                <div class="bottom-text-container text-container">
+                    <h2>ABOUT OUR FURNITURE</h2>
+                    <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space. </p>
+                </div>
+                <img class='img-container img-class' src="./img/small_white_chair.png" alt="">
+        </main>
+    </section>
+    <footer>
+        <p>Coded by <a href='https://www.github.com/benceturbulence' target="_blank">benceturbulence</a> based on the design provided by <a href='https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq-' target="_blank">frontendmentor</a>.</p>
+    </footer>
+    </body>
+    <script src="index.js"></script>
+</html>
